@@ -66,6 +66,26 @@
     }];
 }
 
+// 屏幕旋转 控制器调用的方法
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    
+    // 更新dock约束
+    BOOL isLandscape = size.width == kLandscapeWidth;
+    CGFloat dockWidth = isLandscape ? kDockLandscapeWidth : kDockPortraitWidth;
+    [self.dock updateConstraints:^(MASConstraintMaker *make) {
+        make.width.equalTo(dockWidth);
+    }];
+    
+    // 设置动画
+    CGFloat duration = [coordinator transitionDuration];
+    [UIView animateWithDuration:duration animations:^{
+        [self.dock layoutIfNeeded];
+    }];
+    
+    // 更新dock方向
+    [self.dock rotateToLandscape:isLandscape];
+}
+
 /**
  *  初始化六个控制器
  */
@@ -156,25 +176,6 @@
     self.currentIndex = to;
 }
 
-
-- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
-    
-    // 更新dock约束
-    BOOL isLandscape = size.width == kLandscapeWidth;
-    CGFloat dockWidth = isLandscape ? kDockLandscapeWidth : kDockPortraitWidth;
-    [self.dock updateConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(dockWidth);
-    }];
-    
-    // 设置动画
-    CGFloat duration = [coordinator transitionDuration];
-    [UIView animateWithDuration:duration animations:^{
-        [self.dock layoutIfNeeded];
-    }];
-    
-    // 更新dock方向
-    [self.dock rotateToLandscape:isLandscape];
-}
 
 #pragma mark - 监听IconButton的点击
 - (void)iconButtonClick

@@ -85,7 +85,7 @@ const CGFloat kRatio = 0.4;
         make.height.equalTo(tabBarH);
         make.bottom.equalTo(dock.bottomMenu.top);
     }];
-    
+
     // 刷新约束,取得最新自身宽高
     [self layoutIfNeeded];
     CGFloat bottomMenuH = self.viewHeight;
