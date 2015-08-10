@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04677FF81B776536000CA1DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04677FF71B776536000CA1DB /* main.m */; };
+		04677FFB1B776536000CA1DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04677FFA1B776536000CA1DB /* AppDelegate.m */; };
+		04677FFE1B776536000CA1DB /* QQ__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04677FFC1B776536000CA1DB /* QQ__.xcdatamodeld */; };
+		046780041B776536000CA1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046780021B776536000CA1DB /* Main.storyboard */; };
+		046780061B776536000CA1DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046780051B776536000CA1DB /* Images.xcassets */; };
+		046780091B776536000CA1DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046780071B776536000CA1DB /* LaunchScreen.xib */; };
+		046780151B776536000CA1DB /* QQ__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046780141B776536000CA1DB /* QQ__Tests.m */; };
+		046780241B776712000CA1DB /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046780221B776712000CA1DB /* LoginController.m */; };
+		046780281B777497000CA1DB /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046780271B777497000CA1DB /* mainViewController.m */; };
+		0467802B1B7774E0000CA1DB /* UIKit+tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467802A1B7774E0000CA1DB /* UIKit+tools.m */; };
+		046780331B77779E000CA1DB /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467802F1B77779E000CA1DB /* MBProgressHUD+MJ.m */; };
+		046780341B77779E000CA1DB /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046780301B77779E000CA1DB /* MBProgressHUD.bundle */; };
+		046780351B77779E000CA1DB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 046780321B77779E000CA1DB /* MBProgressHUD.m */; };
+		046780381B777EE4000CA1DB /* Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = 046780371B777EE4000CA1DB /* Dock.m */; };
+		046780521B777F81000CA1DB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467803B1B777F81000CA1DB /* MASCompositeConstraint.m */; };
+		046780531B777F81000CA1DB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467803E1B777F81000CA1DB /* MASConstraint.m */; };
+		046780541B777F81000CA1DB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 046780401B777F81000CA1DB /* MASConstraintMaker.m */; };
+		046780551B777F81000CA1DB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 046780421B777F81000CA1DB /* MASLayoutConstraint.m */; };
+		046780561B777F81000CA1DB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 046780461B777F81000CA1DB /* MASViewAttribute.m */; };
+		046780571B777F81000CA1DB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 046780481B777F81000CA1DB /* MASViewConstraint.m */; };
+		046780581B777F81000CA1DB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467804A1B777F81000CA1DB /* NSArray+MASAdditions.m */; };
+		046780591B777F81000CA1DB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467804D1B777F81000CA1DB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0467805A1B777F81000CA1DB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467804F1B777F81000CA1DB /* View+MASAdditions.m */; };
+		0467805B1B777F81000CA1DB /* 宏定义.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 046780511B777F81000CA1DB /* 宏定义.rtf */; };
+		0467805E1B778052000CA1DB /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467805D1B778052000CA1DB /* Const.m */; };
+		049EAFAA1B778A91007F568E /* BottomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 049EAFA91B778A91007F568E /* BottomMenu.m */; };
+		049EAFAD1B779E64007F568E /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 049EAFAC1B779E64007F568E /* TabBar.m */; };
+		049EAFB01B77A7A6007F568E /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 049EAFAF1B77A7A6007F568E /* IconButton.m */; };
+		049EAFB31B77AEB2007F568E /* MoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049EAFB21B77AEB2007F568E /* MoodViewController.m */; };
+		049EAFB61B77B1CE007F568E /* AllStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049EAFB51B77B1CE007F568E /* AllStatusViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0467800F1B776536000CA1DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04677FEA1B776536000CA1DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04677FF11B776536000CA1DB;
+			remoteInfo = "QQ空间";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04677FF21B776536000CA1DB /* QQ空间.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ空间.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04677FF61B776536000CA1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04677FF71B776536000CA1DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04677FF91B776536000CA1DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04677FFA1B776536000CA1DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04677FFD1B776536000CA1DB /* QQ__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QQ__.xcdatamodel; sourceTree = "<group>"; };
+		046780031B776536000CA1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046780051B776536000CA1DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		046780081B776536000CA1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0467800E1B776536000CA1DB /* QQ空间Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ空间Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046780131B776536000CA1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046780141B776536000CA1DB /* QQ__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQ__Tests.m; sourceTree = "<group>"; };
+		046780211B776712000CA1DB /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		046780221B776712000CA1DB /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		046780261B777497000CA1DB /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		046780271B777497000CA1DB /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		046780291B7774E0000CA1DB /* UIKit+tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+tools.h"; sourceTree = "<group>"; };
+		0467802A1B7774E0000CA1DB /* UIKit+tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIKit+tools.m"; sourceTree = "<group>"; };
+		0467802C1B7774EA000CA1DB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0467802E1B77779E000CA1DB /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		0467802F1B77779E000CA1DB /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		046780301B77779E000CA1DB /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		046780311B77779E000CA1DB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		046780321B77779E000CA1DB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		046780361B777EE4000CA1DB /* Dock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dock.h; sourceTree = "<group>"; };
+		046780371B777EE4000CA1DB /* Dock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dock.m; sourceTree = "<group>"; };
+		0467803A1B777F81000CA1DB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0467803B1B777F81000CA1DB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0467803C1B777F81000CA1DB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0467803D1B777F81000CA1DB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		0467803E1B777F81000CA1DB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		0467803F1B777F81000CA1DB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		046780401B777F81000CA1DB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		046780411B777F81000CA1DB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		046780421B777F81000CA1DB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		046780431B777F81000CA1DB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		046780441B777F81000CA1DB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		046780451B777F81000CA1DB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		046780461B777F81000CA1DB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		046780471B777F81000CA1DB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		046780481B777F81000CA1DB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		046780491B777F81000CA1DB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		0467804A1B777F81000CA1DB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0467804B1B777F81000CA1DB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0467804C1B777F81000CA1DB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0467804D1B777F81000CA1DB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0467804E1B777F81000CA1DB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		0467804F1B777F81000CA1DB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		046780501B777F81000CA1DB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		046780511B777F81000CA1DB /* 宏定义.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "宏定义.rtf"; sourceTree = "<group>"; };
+		0467805C1B778052000CA1DB /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		0467805D1B778052000CA1DB /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		049EAFA81B778A91007F568E /* BottomMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomMenu.h; sourceTree = "<group>"; };
+		049EAFA91B778A91007F568E /* BottomMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomMenu.m; sourceTree = "<group>"; };
+		049EAFAB1B779E64007F568E /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		049EAFAC1B779E64007F568E /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		049EAFAE1B77A7A6007F568E /* IconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconButton.h; sourceTree = "<group>"; };
+		049EAFAF1B77A7A6007F568E /* IconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconButton.m; sourceTree = "<group>"; };
+		049EAFB11B77AEB2007F568E /* MoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodViewController.h; sourceTree = "<group>"; };
+		049EAFB21B77AEB2007F568E /* MoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodViewController.m; sourceTree = "<group>"; };
+		049EAFB41B77B1CE007F568E /* AllStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllStatusViewController.h; sourceTree = "<group>"; };
+		049EAFB51B77B1CE007F568E /* AllStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllStatusViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04677FEF1B776536000CA1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467800B1B776536000CA1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04677FE91B776536000CA1DB = {
+			isa = PBXGroup;
+			children = (
+				04677FF41B776536000CA1DB /* QQ空间 */,
+				046780111B776536000CA1DB /* QQ空间Tests */,
+				04677FF31B776536000CA1DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04677FF31B776536000CA1DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04677FF21B776536000CA1DB /* QQ空间.app */,
+				0467800E1B776536000CA1DB /* QQ空间Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04677FF41B776536000CA1DB /* QQ空间 */ = {
+			isa = PBXGroup;
+			children = (
+				046780391B777F81000CA1DB /* Masonry */,
+				0467802D1B77779E000CA1DB /* MBProgressHUD */,
+				0467801E1B7766E5000CA1DB /* Controller */,
+				0467801F1B7766E5000CA1DB /* Model */,
+				046780201B7766E5000CA1DB /* View */,
+				04677FF51B776536000CA1DB /* Supporting Files */,
+			);
+			path = "QQ空间";
+			sourceTree = "<group>";
+		};
+		04677FF51B776536000CA1DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0467802C1B7774EA000CA1DB /* PrefixHeader.pch */,
+				0467805C1B778052000CA1DB /* Const.h */,
+				0467805D1B778052000CA1DB /* Const.m */,
+				046780291B7774E0000CA1DB /* UIKit+tools.h */,
+				0467802A1B7774E0000CA1DB /* UIKit+tools.m */,
+				04677FF91B776536000CA1DB /* AppDelegate.h */,
+				04677FFA1B776536000CA1DB /* AppDelegate.m */,
+				046780021B776536000CA1DB /* Main.storyboard */,
+				04677FF61B776536000CA1DB /* Info.plist */,
+				04677FF71B776536000CA1DB /* main.m */,
+				046780051B776536000CA1DB /* Images.xcassets */,
+				046780071B776536000CA1DB /* LaunchScreen.xib */,
+				04677FFC1B776536000CA1DB /* QQ__.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046780111B776536000CA1DB /* QQ空间Tests */ = {
+			isa = PBXGroup;
+			children = (
+				046780141B776536000CA1DB /* QQ__Tests.m */,
+				046780121B776536000CA1DB /* Supporting Files */,
+			);
+			path = "QQ空间Tests";
+			sourceTree = "<group>";
+		};
+		046780121B776536000CA1DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046780131B776536000CA1DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0467801E1B7766E5000CA1DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				046780211B776712000CA1DB /* LoginController.h */,
+				046780221B776712000CA1DB /* LoginController.m */,
+				046780261B777497000CA1DB /* mainViewController.h */,
+				046780271B777497000CA1DB /* mainViewController.m */,
+				049EAFB11B77AEB2007F568E /* MoodViewController.h */,
+				049EAFB21B77AEB2007F568E /* MoodViewController.m */,
+				049EAFB41B77B1CE007F568E /* AllStatusViewController.h */,
+				049EAFB51B77B1CE007F568E /* AllStatusViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0467801F1B7766E5000CA1DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046780201B7766E5000CA1DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046780361B777EE4000CA1DB /* Dock.h */,
+				046780371B777EE4000CA1DB /* Dock.m */,
+				049EAFA81B778A91007F568E /* BottomMenu.h */,
+				049EAFA91B778A91007F568E /* BottomMenu.m */,
+				049EAFAB1B779E64007F568E /* TabBar.h */,
+				049EAFAC1B779E64007F568E /* TabBar.m */,
+				049EAFAE1B77A7A6007F568E /* IconButton.h */,
+				049EAFAF1B77A7A6007F568E /* IconButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0467802D1B77779E000CA1DB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0467802E1B77779E000CA1DB /* MBProgressHUD+MJ.h */,
+				0467802F1B77779E000CA1DB /* MBProgressHUD+MJ.m */,
+				046780301B77779E000CA1DB /* MBProgressHUD.bundle */,
+				046780311B77779E000CA1DB /* MBProgressHUD.h */,
+				046780321B77779E000CA1DB /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		046780391B777F81000CA1DB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0467803A1B777F81000CA1DB /* MASCompositeConstraint.h */,
+				0467803B1B777F81000CA1DB /* MASCompositeConstraint.m */,
+				0467803C1B777F81000CA1DB /* MASConstraint+Private.h */,
+				0467803D1B777F81000CA1DB /* MASConstraint.h */,
+				0467803E1B777F81000CA1DB /* MASConstraint.m */,
+				0467803F1B777F81000CA1DB /* MASConstraintMaker.h */,
+				046780401B777F81000CA1DB /* MASConstraintMaker.m */,
+				046780411B777F81000CA1DB /* MASLayoutConstraint.h */,
+				046780421B777F81000CA1DB /* MASLayoutConstraint.m */,
+				046780431B777F81000CA1DB /* Masonry.h */,
+				046780441B777F81000CA1DB /* MASUtilities.h */,
+				046780451B777F81000CA1DB /* MASViewAttribute.h */,
+				046780461B777F81000CA1DB /* MASViewAttribute.m */,
+				046780471B777F81000CA1DB /* MASViewConstraint.h */,
+				046780481B777F81000CA1DB /* MASViewConstraint.m */,
+				046780491B777F81000CA1DB /* NSArray+MASAdditions.h */,
+				0467804A1B777F81000CA1DB /* NSArray+MASAdditions.m */,
+				0467804B1B777F81000CA1DB /* NSArray+MASShorthandAdditions.h */,
+				0467804C1B777F81000CA1DB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0467804D1B777F81000CA1DB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0467804E1B777F81000CA1DB /* View+MASAdditions.h */,
+				0467804F1B777F81000CA1DB /* View+MASAdditions.m */,
+				046780501B777F81000CA1DB /* View+MASShorthandAdditions.h */,
+				046780511B777F81000CA1DB /* 宏定义.rtf */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04677FF11B776536000CA1DB /* QQ空间 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046780181B776536000CA1DB /* Build configuration list for PBXNativeTarget "QQ空间" */;
+			buildPhases = (
+				04677FEE1B776536000CA1DB /* Sources */,
+				04677FEF1B776536000CA1DB /* Frameworks */,
+				04677FF01B776536000CA1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ空间";
+			productName = "QQ空间";
+			productReference = 04677FF21B776536000CA1DB /* QQ空间.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0467800D1B776536000CA1DB /* QQ空间Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0467801B1B776536000CA1DB /* Build configuration list for PBXNativeTarget "QQ空间Tests" */;
+			buildPhases = (
+				0467800A1B776536000CA1DB /* Sources */,
+				0467800B1B776536000CA1DB /* Frameworks */,
+				0467800C1B776536000CA1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046780101B776536000CA1DB /* PBXTargetDependency */,
+			);
+			name = "QQ空间Tests";
+			productName = "QQ空间Tests";
+			productReference = 0467800E1B776536000CA1DB /* QQ空间Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04677FEA1B776536000CA1DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = adhx;
+				TargetAttributes = {
+					04677FF11B776536000CA1DB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					0467800D1B776536000CA1DB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 04677FF11B776536000CA1DB;
+					};
+				};
+			};
+			buildConfigurationList = 04677FED1B776536000CA1DB /* Build configuration list for PBXProject "QQ空间" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04677FE91B776536000CA1DB;
+			productRefGroup = 04677FF31B776536000CA1DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04677FF11B776536000CA1DB /* QQ空间 */,
+				0467800D1B776536000CA1DB /* QQ空间Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04677FF01B776536000CA1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046780041B776536000CA1DB /* Main.storyboard in Resources */,
+				0467805B1B777F81000CA1DB /* 宏定义.rtf in Resources */,
+				046780341B77779E000CA1DB /* MBProgressHUD.bundle in Resources */,
+				046780091B776536000CA1DB /* LaunchScreen.xib in Resources */,
+				046780061B776536000CA1DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467800C1B776536000CA1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04677FEE1B776536000CA1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046780571B777F81000CA1DB /* MASViewConstraint.m in Sources */,
+				04677FFB1B776536000CA1DB /* AppDelegate.m in Sources */,
+				049EAFB01B77A7A6007F568E /* IconButton.m in Sources */,
+				046780561B777F81000CA1DB /* MASViewAttribute.m in Sources */,
+				046780241B776712000CA1DB /* LoginController.m in Sources */,
+				046780281B777497000CA1DB /* mainViewController.m in Sources */,
+				04677FF81B776536000CA1DB /* main.m in Sources */,
+				049EAFAA1B778A91007F568E /* BottomMenu.m in Sources */,
+				049EAFB61B77B1CE007F568E /* AllStatusViewController.m in Sources */,
+				046780521B777F81000CA1DB /* MASCompositeConstraint.m in Sources */,
+				0467805E1B778052000CA1DB /* Const.m in Sources */,
+				046780541B777F81000CA1DB /* MASConstraintMaker.m in Sources */,
+				0467805A1B777F81000CA1DB /* View+MASAdditions.m in Sources */,
+				046780551B777F81000CA1DB /* MASLayoutConstraint.m in Sources */,
+				046780531B777F81000CA1DB /* MASConstraint.m in Sources */,
+				046780331B77779E000CA1DB /* MBProgressHUD+MJ.m in Sources */,
+				0467802B1B7774E0000CA1DB /* UIKit+tools.m in Sources */,
+				046780581B777F81000CA1DB /* NSArray+MASAdditions.m in Sources */,
+				046780591B777F81000CA1DB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				04677FFE1B776536000CA1DB /* QQ__.xcdatamodeld in Sources */,
+				049EAFAD1B779E64007F568E /* TabBar.m in Sources */,
+				046780351B77779E000CA1DB /* MBProgressHUD.m in Sources */,
+				046780381B777EE4000CA1DB /* Dock.m in Sources */,
+				049EAFB31B77AEB2007F568E /* MoodViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467800A1B776536000CA1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046780151B776536000CA1DB /* QQ__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046780101B776536000CA1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04677FF11B776536000CA1DB /* QQ空间 */;
+			targetProxy = 0467800F1B776536000CA1DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046780021B776536000CA1DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046780031B776536000CA1DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046780071B776536000CA1DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046780081B776536000CA1DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046780161B776536000CA1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		046780171B776536000CA1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046780191B776536000CA1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "QQ空间/PrefixHeader.pch";
+				INFOPLIST_FILE = "QQ空间/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0467801A1B776536000CA1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "QQ空间/PrefixHeader.pch";
+				INFOPLIST_FILE = "QQ空间/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0467801C1B776536000CA1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QQ空间Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ空间.app/QQ空间";
+			};
+			name = Debug;
+		};
+		0467801D1B776536000CA1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QQ空间Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ空间.app/QQ空间";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04677FED1B776536000CA1DB /* Build configuration list for PBXProject "QQ空间" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046780161B776536000CA1DB /* Debug */,
+				046780171B776536000CA1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046780181B776536000CA1DB /* Build configuration list for PBXNativeTarget "QQ空间" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046780191B776536000CA1DB /* Debug */,
+				0467801A1B776536000CA1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0467801B1B776536000CA1DB /* Build configuration list for PBXNativeTarget "QQ空间Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0467801C1B776536000CA1DB /* Debug */,
+				0467801D1B776536000CA1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04677FFC1B776536000CA1DB /* QQ__.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04677FFD1B776536000CA1DB /* QQ__.xcdatamodel */,
+			);
+			currentVersion = 04677FFD1B776536000CA1DB /* QQ__.xcdatamodel */;
+			path = QQ__.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04677FEA1B776536000CA1DB /* Project object */;
+}
